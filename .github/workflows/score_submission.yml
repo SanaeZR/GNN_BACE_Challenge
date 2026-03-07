@@ -76,6 +76,14 @@ jobs:
           echo "Decryption successful."
           echo "decrypted_file=decrypted_submission.csv" >> $GITHUB_OUTPUT
 
+      - name: Restore test labels
+        env:
+          TEST_LABELS_B64: ${{ secrets.TEST_LABELS_B64 }}
+        run: |
+          echo "Restoring private test labels..."
+          echo "$TEST_LABELS_B64" | base64 -d > data/public/test_labels.csv
+          echo "Test labels restored."
+
       - name: Check Eligibility
         run: |
           echo "Checking eligibility for user: ${{ github.actor }}"
