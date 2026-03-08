@@ -8,3 +8,4 @@ This leaderboard is automatically updated after each valid submission.
 |      2 | hadilaff    | test-enc-score |           0.390879 | 2026-02-18T14:42:13Z | PR #7   |
 |      2 | El-Ikram    | main           |           0.390879 | 2026-03-07T17:15:51Z | PR #10  |
 |      2 | samuelmatia | main           |           0.390879 | 2026-03-07T23:11:58Z | PR #13  |
+|      2 | SanaeZR     | main           |           0.390879 | 2026-03-08T12:05:57Z | PR #14  |
